@@ -5,6 +5,10 @@
 	height: 650px;
 	display: flex;
 }
+.heading{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
 .button {
     border: none;
     background-color: white;
