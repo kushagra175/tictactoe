@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIC-TAC-TOE</title>
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+</head>
+<body>
+<script type="text/javascript" src="tictactoe.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+	<h1 class="text-center">Tic Tac Toe</h1>
+	<div class="row row1">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-6 main">
+			<div class="col-md-4 cell">
+				<div id="box1" style="display: none;">X</div>
+				<div id="box11" style="display: none;">O</div>
+				<button id="button1" class="button" onclick="showDiv(1)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box2" style="display: none;">X</div>
+				<div id="box12" style="display: none;">O</div>
+				<button id="button2" class="button" onclick="showDiv(2)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box3" style="display: none;">X</div>
+				<div id="box13" style="display: none;">O</div>
+				<button id="button3" class="button" onclick="showDiv(3)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box4" style="display: none;">X</div>
+				<div id="box14" style="display: none;">O</div>
+				<button id="button4" class="button" onclick="showDiv(4)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box5" style="display: none;">X</div>
+				<div id="box15" style="display: none;">O</div>
+				<button id="button5" class="button" onclick="showDiv(5)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box6" style="display: none;">X</div>
+				<div id="box16" style="display: none;">O</div>
+				<button id="button6" class="button" onclick="showDiv(6)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box7" style="display: none;">X</div>
+				<div id="box17" style="display: none;">O</div>
+				<button id="button7" class="button" onclick="showDiv(7)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box8" style="display: none;">X</div>
+				<div id="box18" style="display: none;">O</div>
+				<button id="button8" class="button" onclick="showDiv(8)"></button>
+			</div>
+
+			<div class="col-md-4 cell">
+				<div id="box9" style="display: none;">X</div>
+				<div id="box19" style="display: none;">O</div>
+				<button id="button9" class="button" onclick="showDiv(9)"></button>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<button type="button" class="pull-right" onclick="newgame()">NEW GAME</button>
+		</div>
+	</div>
+
+</body>
+</html>
